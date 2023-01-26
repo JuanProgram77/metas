@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: rgba(128, 128, 128, 0.632);
+}
+body{
+    font:normal normal 16px Arial, sans-serif;
+}
+
+header{
+    background-color:rgba(0, 255, 255, 0.266);
+    padding: 10px;
+    text-align:center;
+}
+
+header > p{
+    font-weight: bold;
+}
+
+table{
+    border-collapse:collapse;
+    width: 50%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.145);
+}
+
+caption{
+    background-color:lightgray;
+    margin-top:40px;
+    border-radius: 10px 10px 0px 0px;
+    padding:10px;
+    border: 1px solid black;
+    border-bottom: 0px;
+}
+
+thead, tfoot{
+    background-color:var(--cor01);
+}
+
+tr:nth-child(2n){
+   background-color:rgba(128, 128, 128, 0.264); 
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape, caption{
+    font-weight: bolder;
+}
